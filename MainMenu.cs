@@ -16,5 +16,17 @@ namespace TPQR_Session1_7_9
         {
             InitializeComponent();
         }
+
+        private void btnCreateAccount_Click(object sender, EventArgs e)
+        {
+            Hide();
+            (new CreateAccount()).ShowDialog();
+            Close();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
