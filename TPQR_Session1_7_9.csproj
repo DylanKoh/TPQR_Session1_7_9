@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddResource.Designer.cs">
+      <DependentUpon>AddResource.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +114,21 @@
     <Compile Include="Skill.cs">
       <DependentUpon>Session1Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="UpdateResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateResource.Designer.cs">
+      <DependentUpon>UpdateResource.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <DependentUpon>Session1Model.tt</DependentUpon>
     </Compile>
     <Compile Include="User_Type.cs">
       <DependentUpon>Session1Model.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddResource.resx">
+      <DependentUpon>AddResource.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +149,9 @@
     </Compile>
     <EmbeddedResource Include="ResourceManagement.resx">
       <DependentUpon>ResourceManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateResource.resx">
+      <DependentUpon>UpdateResource.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
