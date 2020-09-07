@@ -40,7 +40,7 @@ namespace TPQR_Session1_7_9
                     }
                     else
                     {
-                        if (getUser.userTypeIdFK == 2)
+                        if (getUser.userTypeIdFK == 1)
                         {
                             MessageBox.Show($"Welcome {getUser.userName}!");
                             Hide();

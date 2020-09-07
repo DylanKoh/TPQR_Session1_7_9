@@ -26,7 +26,9 @@ namespace TPQR_Session1_7_9
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            (new Login()).ShowDialog();
+            Close();
         }
     }
 }
