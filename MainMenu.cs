@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TPQR_Session1_7_9
 {
-    public partial class Form1 : Form
+    public partial class MainMenu : Form
     {
-        public Form1()
+        public MainMenu()
         {
             InitializeComponent();
         }
